@@ -5,8 +5,14 @@ import { useRouter } from "next/navigation";
 import Heading from "../components/Heading";
 import Container from "../components/Container";
 
-import { safeReservation, safeUser } from "../types";
-import { useCallback, useState } from "react";
+import { 
+    safeReservation, 
+    safeUser 
+} from "../types";
+import { 
+    useCallback, 
+    useState 
+} from "react";
 import axios from "axios";
 import toast from "react-hot-toast";
 import ListingCard from "../components/listings/ListingCard";
